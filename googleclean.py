@@ -1,4 +1,6 @@
 import json
+import http.client
+
 
 #Annouce the tool
 print("Welcome to my learning world")
@@ -17,9 +19,12 @@ if notInclude is None:
     notInclude = ""
 
 inputGrabber(whatToSearch)
+print(chamarGoogle())
 
-##def chamarGoogle(str1, str2):
-   ## http.sadsjahd
+def chamarGoogle(str1, str2):
+    conn = http.client.HTTPSConnection("localhost", 8081)
+    conn.set_tunnel("https://google.com")
+    conn.request("HEAD","/index.html")
 
 
 # def inputGrabber(str1,str2):
