@@ -12,7 +12,8 @@ inputGrabber(palavra)
 #     filteredData = 
 
 def inputGrabber(str1):
-    filteredData = palavr
+    filteredData = json.dumps(palavra)
+    print("por quanto", filteredData)
 
 
 
