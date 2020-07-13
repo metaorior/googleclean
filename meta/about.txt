@@ -1,0 +1,3 @@
+I have been strugling to do searchs in google with the default tools ( or even chrome/firefox plugins)
+so i decided to create my tool (in python) own in a bash style format
+This will also help me in my learning process.
