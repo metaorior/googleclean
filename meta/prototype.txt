@@ -1,12 +1,11 @@
 1- print a welcome message
 
 2- ask the user about what he want to search in google(prompt)
-2-1 filter input
-2-2
+2-1 ask 
+2-2 filter input from keyboard
+2-3
 
-
-
-3- call the google API with the data and send the data formatted as the API  expects
+3- connect the google API with the data and send the data formatted the way it  expects
 3-1 use JSON or whatever it's needed
 
 4- Bring back the data and show the user in the terminal

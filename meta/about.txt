@@ -1,3 +1,7 @@
 I have been strugling to do searchs in google with the default tools ( or even chrome/firefox plugins)
-so i decided to create my tool (in python) own in a bash style format
-This will also help me in my learning process.
+1- this is what happens when you search the word "Battlefield Heroes" 
+https://www.google.com/
+search?hl=pt-BR&sxsrf=ALeKk02HUOquGa-BOTJo57iP1ytbuyjR9A%3A1594610728146&ei=KNQLX7GxCPnZ5OUPqPOb6AM&q=battlefield+heroes&oq=battlefield+heroes&gs_lcp=CgZwc3ktYWIQAzIECCMQJzIECCMQJzICCAAyAggAMgIIADICCAAyAggAMgIIADICCAAyAggAOgQIABBHOgQIABBDOgUIABCxAzoICAAQsQMQgwE6BwgAELEDEEM6CggAELEDEIMBEENQ6pkCWOanAmCuqAJoAHACeACAAaMBiAHsEpIBBDAuMTeYAQCgAQGqAQdnd3Mtd2l6&sclient=psy-ab&ved=0ahUKEwix5YXwo8nqAhX5LLkGHaj5Bj0Q4dUDCAw&uact=5
+so i decided to create my tool (in python) as my own in a bash style format
+This will also help me in my learning process. 
+also i will try to keep away from tutorials and wikis the more i can.
