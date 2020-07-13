@@ -3,21 +3,23 @@ import json
 #Annouce the tool
 print("Welcome to my learning world")
 print("This is a tool for searching in google with custom filters")
-print("2020 July, Happy birthday ")
 
-# def main():
-#     print("main function called")
-
-# if __name__ == '__main__':
-#     main()
+#inputGrabber is the input we receive from the user
 def inputGrabber(str1):
 
-    filteredData = json.dumps(palavra)
-    print("por enquanto", filteredData)
+    filteredData = json.dumps(whatToSearch)
+    print("por enquanto: \n", filteredData, "\noque nao incluir: ", notInclude)
 
-palavra = input("digite oque voce quer pesquisar\n")
+whatToSearch = input("digite oque voce quer pesquisar\n")
 
-inputGrabber(palavra)
+notInclude = input("digite 1 palavra do site que vc nao quer(ex catho)")
+if notInclude is None:
+    notInclude = ""
+
+inputGrabber(whatToSearch)
+
+##def chamarGoogle(str1, str2):
+   ## http.sadsjahd
 
 
 # def inputGrabber(str1,str2):
