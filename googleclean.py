@@ -19,12 +19,13 @@ if notInclude is None:
     notInclude = ""
 
 inputGrabber(whatToSearch)
-print(chamarGoogle())
 
-def chamarGoogle(str1, str2):
+def chamarGoogle():
     conn = http.client.HTTPSConnection("localhost", 8081)
-    conn.set_tunnel("https://google.com")
-    conn.request("HEAD","/index.html")
+    conn.set_tunnel("google.com")
+    conn.request("/")
+
+print(chamarGoogle())
 
 
 # def inputGrabber(str1,str2):
